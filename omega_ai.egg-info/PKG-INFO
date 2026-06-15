@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: omega-ai
+Version: 0.1.0
+Summary: Omega: open-source autonomous terminal AI agent
+Author: OMEGA Project
+License: MIT
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.111.2
+Requires-Dist: uvicorn>=0.23.3
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: sqlalchemy>=2.0.45
+Requires-Dist: pydantic>=2.8.0
+Requires-Dist: rich>=14.6.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: playwright>=1.46.0
+Requires-Dist: chromadb>=0.4.0
+Requires-Dist: faiss-cpu>=1.7.4
+Requires-Dist: openrouter>=0.3.0
+Provides-Extra: testing
+Requires-Dist: pytest>=8.4.0; extra == "testing"
+
+# omega-ai
